@@ -1,0 +1,30 @@
+
+breadthFirst traversal 
+57.12 Dollar 1.0 Dollar 151.0 Dollar 51.0 Dollar 101.0 Dollar 251.0 Dollar 21.0 Dollar 77.77 Dollar 111.22 Dollar 345.67 Dollar 11.0 Dollar 48.48 Dollar 68.99 Dollar 87.43 Dollar 543.21 Dollar 20.21 Dollar 36.18 Dollar 18.36 Dollar 23.44 Dollar 44.55 Dollar 
+inOrder traversal 
+1.0 Dollar 11.0 Dollar 18.36 Dollar 20.21 Dollar 21.0 Dollar 23.44 Dollar 36.18 Dollar 44.55 Dollar 48.48 Dollar 51.0 Dollar 57.12 Dollar 68.99 Dollar 77.77 Dollar 87.43 Dollar 101.0 Dollar 111.22 Dollar 151.0 Dollar 251.0 Dollar 345.67 Dollar 543.21 Dollar 
+preOrder traversal 
+57.12 Dollar 1.0 Dollar 51.0 Dollar 21.0 Dollar 11.0 Dollar 20.21 Dollar 18.36 Dollar 48.48 Dollar 36.18 Dollar 23.44 Dollar 44.55 Dollar 151.0 Dollar 101.0 Dollar 77.77 Dollar 68.99 Dollar 87.43 Dollar 111.22 Dollar 251.0 Dollar 345.67 Dollar 543.21 Dollar 
+postOrder traversal 
+18.36 Dollar 20.21 Dollar 11.0 Dollar 23.44 Dollar 44.55 Dollar 36.18 Dollar 48.48 Dollar 21.0 Dollar 51.0 Dollar 1.0 Dollar 68.99 Dollar 87.43 Dollar 77.77 Dollar 111.22 Dollar 101.0 Dollar 543.21 Dollar 345.67 Dollar 251.0 Dollar 151.0 Dollar 57.12 Dollar Enter "add double" to add a Dollar object to the BST 
+Enter "delete double" to delete a Dollar object from the BST 
+Enter "search double" to check if a Dollar object is present in the BST 
+Enter "in|pre|post|breadth" to print corresponding traversal 
+Enter "quit" to exit the program 
+Enter "print" to print all traversals 
+
+Please enter a command: delete 11.0 
+1.0 Dollar 18.36 Dollar 20.21 Dollar 21.0 Dollar 23.44 Dollar 36.18 Dollar 44.55 Dollar 48.48 Dollar 51.0 Dollar 57.12 Dollar 68.99 Dollar 77.77 Dollar 87.43 Dollar 101.0 Dollar 111.22 Dollar 151.0 Dollar 251.0 Dollar 345.67 Dollar 543.21 Dollar 
+Please enter a command: search 11.0 
+false
+Please enter a command: delete 151.0 
+1.0 Dollar 18.36 Dollar 20.21 Dollar 21.0 Dollar 23.44 Dollar 36.18 Dollar 44.55 Dollar 48.48 Dollar 51.0 Dollar 57.12 Dollar 68.99 Dollar 77.77 Dollar 87.43 Dollar 101.0 Dollar 111.22 Dollar 251.0 Dollar 345.67 Dollar 543.21 Dollar 
+Please enter a command: search 151.0 
+false
+Please enter a command: add 44.55 
+1.0 Dollar 18.36 Dollar 20.21 Dollar 21.0 Dollar 23.44 Dollar 36.18 Dollar 44.55 Dollar 44.55 Dollar 48.48 Dollar 51.0 Dollar 57.12 Dollar 68.99 Dollar 77.77 Dollar 87.43 Dollar 101.0 Dollar 111.22 Dollar 251.0 Dollar 345.67 Dollar 543.21 Dollar 
+Please enter a command: search 44.55 
+true
+Please enter a command: breadth 
+57.12 Dollar 1.0 Dollar 251.0 Dollar 51.0 Dollar 101.0 Dollar 345.67 Dollar 21.0 Dollar 77.77 Dollar 111.22 Dollar 543.21 Dollar 20.21 Dollar 48.48 Dollar 68.99 Dollar 87.43 Dollar 18.36 Dollar 36.18 Dollar 23.44 Dollar 44.55 Dollar 44.55 Dollar 
+Please enter a command: quit 
